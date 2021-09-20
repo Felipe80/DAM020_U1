@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:u1_301/pages/boton_page.dart';
 import 'package:u1_301/pages/cols_rows_page.dart';
+import 'package:u1_301/pages/listas2_page..dart';
+import 'package:u1_301/pages/listas3_page.dart';
+import 'package:u1_301/pages/listas_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: BotonPage(),
+      home: Listas3Page(),
     );
   }
 }
